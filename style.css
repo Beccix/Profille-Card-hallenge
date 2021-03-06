@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+#card {
+    align-items: center;
+    text-align: center;
+    background-color: hsl(229, 23%, 23%);
+}
+img {
+    position: relative;
+    top: 3.7rem;
+    display: block;
+    padding-top: 10rem;
+    margin: auto;
+    z-index: 1;
+}
+
+.information-container {
+    background-color: rgb(187, 180, 180);
+    z-index: 2;
+    padding-top: 3.9rem;
+}
+h1 {
+    display: inline-block;
+    padding-right: .5rem;
+}
+#under-box {
+    display: flex;
+    justify-content: center;
+}
+.numbers-box {
+    background-color: aqua;
+    margin: 0 .4rem;
+}
+.numbers {
+    margin-top: 1rem;
+}
